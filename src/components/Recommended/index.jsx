@@ -10,7 +10,8 @@ const Recommended=()=>{
     useEffect(()=>{
         const fetchdetails=async ()=>{
             try{
-                const response=await fetch(`https://gg-backend-assignment.azurewebsites.net/api/Events?code=${process.env.REACT_APP_API_URL}&type=reco`)
+                const API_URL = import.meta.env.VITE_API_URL;
+                const response=await fetch(`${API_URL}&type=reco`)
                 const data= await response.json()
                 const fetched= data.events.map((each)=>{
                      return {...each, date: format( new Date(each.date), "MMMM d, yyyy"),

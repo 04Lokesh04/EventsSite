@@ -40,7 +40,8 @@ const Upcoming=()=>{
         }
     
         try{
-            const response=await fetch(`https://gg-backend-assignment.azurewebsites.net/api/Events?code=${process.env.REACT_APP_API_URL}&page=${page}&type=upcoming`)
+            const API_URL = import.meta.env.VITE_API_URL;
+            const response=await fetch(`${API_URL}&page=${page}&type=upcoming`)
             const data= await response.json()
             if (data.events.length==0){
                 setMore(false)
