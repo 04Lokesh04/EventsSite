@@ -77,7 +77,7 @@ const Upcoming=()=>{
                     {upcomingList.map((each, index)=>{
                         console.log(index)
                         return (<li className="flex flex-col justify-between h-[250px] w-[250px] rounded-2xl border-t-0 border border-gray-300 shadow" key={uuidv4()}>
-                             <img src='/src/assets/Rectangle 48.svg' className="rounded-2xl" alt="event-image" />
+                             <img src='/Rectangle 48.svg' className="rounded-2xl" alt="event-image" />
                              <div className="flex flex-row justify-between mt-auto">
                              <div className="p-1 m-1 ">
                                     <h1 className="text-xs font-semibold mb-2">Make Agree</h1>

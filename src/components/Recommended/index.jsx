@@ -44,7 +44,7 @@ const Recommended=()=>{
                         return (
                         <li className="flex-none bg-cover bg-center rounded-xl  h-[300px] w-[250px] flex flex-col  p-2 m-2 " key={uuidv4()}
                         style={{
-                            backgroundImage: "url('/src/assets/Rectangle 4.svg')"
+                            backgroundImage: "url('/Rectangle 4.svg')"
                         }}>
                             <div className="flex flex-row justify-between mt-auto">
 

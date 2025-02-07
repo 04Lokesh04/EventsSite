@@ -25,7 +25,7 @@ const BannerSection=()=>{
             </div>
             <div className="relative bg-cover bg-center h-screen flex flex-col justify-center p-1 mb-50"
             style={{
-                backgroundImage:"url('/src/assets/Front screen.svg')",
+                backgroundImage:"url('/Front screen.svg')",
             }}>
                 <h1 className="text-gray-50 text-2xl font-bold mb-2 text-center">Discover Exciting Events Happening Near You - Stay Tuned For Updates</h1>
                 <p className="text-gray-50 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
