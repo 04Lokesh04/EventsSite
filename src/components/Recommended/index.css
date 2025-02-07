@@ -1,0 +1,11 @@
+@keyframes scroll {
+    0%{transform: translate(0);}
+    100%{transform: translate(-50%);}
+
+    
+}
+
+.animate-scroll{
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
